@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* copiado de box shadow css */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: rgb(68, 63, 63);
+    background-color: aqua;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    width: 30%;
+}
+
+.logo img{
+    width: 25%;
+    padding: 3px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.menu ul li a, .redes ul li a{
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+main{
+    padding-top: 20px;
+    width: 96%;
+    margin: 0 auto;
+}
+.menu ul li a:hover, .redes ul li a:hover{
+    color: red;
+    /* background-color: black; */
+    padding: 10px;
+}
+.contenido{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 10px;
+}
+.contenido div img{
+    width: 100%;
+    border-radius: 15%;
+}
+.contenido p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.titulo{
+    border-bottom: 2px double rgb(61, 238, 61);
+    color: green;
+    margin-bottom: 12px;
+}
